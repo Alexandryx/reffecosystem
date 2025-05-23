@@ -1,0 +1,293 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Личный кабинет</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="webapp-container">
+        <div class="container">
+            <!-- Главная -->
+            <main id="home" class="tab-content active">
+                <header class="header-container">
+                    <img src="/static/images/logo.png" alt="Логотип" class="logo">
+                    <h1 id="main-title">Lef Es G</h1>
+                </header>
+                <section>
+                    <section class="income-section">
+    <!-- Блок "Доход" -->
+    <div class="income-block">
+        <p>Доход</p>
+        <p><i class="fas fa-dollar-sign"></i> <span id="referral-bonus">500</span></p>
+    </div>
+    
+    <!-- Правая часть с кнопкой -->
+    <div class="income-right">
+        <button class="pay-button">
+            Оплатить
+        </button>
+    </div>
+</section>
+                <!-- Блок уровней -->
+                <section class="levels-section">
+                    <h2>Уровни</h2>
+                    <div class="level-buttons">
+                        <!-- Кнопка "Betting" -->
+                        <div class="level-button-container">
+                            <button class="level-button">Betting</button>
+                            <div class="ovals-container">
+                                <div class="oval" data-level="1"></div>
+                                <div class="oval" data-level="2"></div>
+                                <div class="oval" data-level="3"></div>
+                            </div>
+                        </div>
+
+                        <!-- Кнопка "Crypto" -->
+                        <div class="level-button-container">
+                            <button class="level-button">Crypto</button>
+                            <div class="ovals-container">
+                                <div class="oval" data-level="4"></div>
+                                <div class="oval" data-level="5"></div>
+                                <div class="oval" data-level="6"></div>
+                            </div>
+                        </div>
+
+                        <!-- Кнопка "Investment" -->
+                        <div class="level-button-container">
+                            <button class="level-button">Investment</button>
+                            <div class="ovals-container">
+                                <div class="oval" data-level="7"></div>
+                                <div class="oval" data-level="8"></div>
+                                <div class="oval" data-level="9"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Блоки матриц -->
+                <section class="matrix-section">
+                    <h2 id="matrix-title">Основной VIP</h2>
+                    <!-- Матрица для Основной VIP -->
+                    <div class="matrix-container" id="matrix-vip">
+                        <div class="matrix-user">
+                            <i class="fas fa-user"></i>
+                            <span id="user-telegram">@username</span>
+                        </div>
+                        <div class="matrix-referrals">
+                            <div class="referral">
+                                <i class="fas fa-user"></i>
+                                <span>@referral1</span>
+                            </div>
+                            <div class="referral">
+                                <i class="fas fa-user"></i>
+                                <span>@referral2</span>
+                            </div>
+                            <div class="referral">
+                                <i class="fas fa-user"></i>
+                                <span>@referral3</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Матрица для Теннис VIP -->
+                    <div class="matrix-container" id="matrix-tennis" style="display: none;">
+                        <div class="matrix-user">
+                            <i class="fas fa-user"></i>
+                            <span>@username</span>
+                        </div>
+                        <div class="matrix-referrals">
+                            <div class="referral">
+                                <i class="fas fa-user"></i>
+                                <span>@referral1</span>
+                            </div>
+                            <div class="referral">
+                                <i class="fas fa-user"></i>
+                                <span>@referral2</span>
+                            </div>
+                            <div class="referral">
+                                <i class="fas fa-user"></i>
+                                <span>@referral3</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Матрица для Бои VIP -->
+                    <div class="matrix-container" id="matrix-fights" style="display: none;">
+                        <div class="matrix-user">
+                            <i class="fas fa-user"></i>
+                            <span>@username</span>
+                        </div>
+                        <div class="matrix-referrals">
+                            <div class="referral">
+                                <i class="fas fa-user"></i>
+                                <span>@referral1</span>
+                            </div>
+                            <div class="referral">
+                                <i class="fas fa-user"></i>
+                                <span>@referral2</span>
+                            </div>
+                            <div class="referral">
+                                <i class="fas fa-user"></i>
+                                <span>@referral3</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Матрица для Kriptano VIP -->
+                    <div class="matrix-container" id="matrix-kriptano" style="display: none;">
+                        <div class="matrix-user">
+                            <i class="fas fa-user"></i>
+                            <span>@username</span>
+                        </div>
+                        <div class="matrix-referrals">
+                            <div class="referral">
+                                <i class="fas fa-user"></i>
+                                <span>@referral1</span>
+                            </div>
+                            <div class="referral">
+                                <i class="fas fa-user"></i>
+                                <span>@referral2</span>
+                            </div>
+                            <div class="referral">
+                                <i class="fas fa-user"></i>
+                                <span>@referral3</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Матрица для Lukas VIP -->
+                    <div class="matrix-container" id="matrix-lukas" style="display: none;">
+                        <div class="matrix-user">
+                            <i class="fas fa-user"></i>
+                            <span>@username</span>
+                        </div>
+                        <div class="matrix-referrals">
+                            <div class="referral">
+                                <i class="fas fa-user"></i>
+                                <span>@referral1</span>
+                            </div>
+                            <div class="referral">
+                                <i class="fas fa-user"></i>
+                                <span>@referral2</span>
+                            </div>
+                            <div class="referral">
+                                <i class="fas fa-user"></i>
+                                <span>@referral3</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Матрица для ХЗ пока VIP -->
+                    <div class="matrix-container" id="matrix-unknown" style="display: none;">
+                        <div class="matrix-user">
+                            <i class="fas fa-user"></i>
+                            <span>@username</span>
+                        </div>
+                        <div class="matrix-referrals">
+                            <div class="referral">
+                                <i class="fas fa-user"></i>
+                                <span>@referral1</span>
+                            </div>
+                            <div class="referral">
+                                <i class="fas fa-user"></i>
+                                <span>@referral2</span>
+                            </div>
+                            <div class="referral">
+                                <i class="fas fa-user"></i>
+                                <span>@referral3</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Матрица для ВИДЕО 1 -->
+                    <div class="matrix-container" id="matrix-video1" style="display: none;">
+                        <div class="matrix-user">
+                            <i class="fas fa-user"></i>
+                            <span>@username</span>
+                        </div>
+                        <div class="matrix-referrals">
+                            <div class="referral">
+                                <i class="fas fa-user"></i>
+                                <span>@referral1</span>
+                            </div>
+                            <div class="referral">
+                                <i class="fas fa-user"></i>
+                                <span>@referral3</span>
+                            </div>
+                            <div class="referral">
+                                <i class="fas fa-user"></i>
+                                <span>@referral3</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Матрица для ВИДЕО 2 -->
+                    <div class="matrix-container" id="matrix-video2" style="display: none;">
+                        <div class="matrix-user">
+                            <i class="fas fa-user"></i>
+                            <span>@username</span>
+                        </div>
+                        <div class="matrix-referrals">
+                            <div class="referral">
+                                <i class="fas fa-user"></i>
+                                <span>@referral1</span>
+                            </div>
+                            <div class="referral">
+                                <i class="fas fa-user"></i>
+                                <span>@referral2</span>
+                            </div>
+                            <div class="referral">
+                                <i class="fas fa-user"></i>
+                                <span>@referral3</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Матрица для ВИДЕО 3 -->
+                    <div class="matrix-container" id="matrix-video3" style="display: none;">
+                        <div class="matrix-user">
+                            <i class="fas fa-user"></i>
+                            <span>@username</span>
+                        </div>
+                        <div class="matrix-referrals">
+                            <div class="referral">
+                                <i class="fas fa-user"></i>
+                                <span>@referral1</span>
+                            </div>
+                            <div class="referral">
+                                <i class="fas fa-user"></i>
+                                <span>@referral2</span>
+                            </div>
+                            <div class="referral">
+                                <i class="fas fa-user"></i>
+                                <span>@referral3</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <!-- Нижнее меню -->
+        <footer class="bottom-menu">
+            <a href="#home" class="menu-item active">
+                <i class="fas fa-home"></i>
+                <span>Главная</span>
+            </a>
+            <a href="#referrals" class="menu-item">
+                <i class="fas fa-users"></i>
+                <span>Рефералы</span>
+            </a>
+            <a href="#faq" class="menu-item">
+                <i class="fas fa-question-circle"></i>
+                <span>FAQ</span>
+            </a>
+        </footer>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+﻿### Python ###
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+*.egg
+.python-version
+*.so
+.Python
+
+### Environments ###
+.env
+.venv/
+venv/
+env/
+.env.local
+.env.*.local
+
+### Logs ###
+*.log
+Log/
+logs/
+
+### Database ###
+*.db
+*.sqlite
+*.dump
+*.sql
+db.sqlite3
+
+### IDE ###
+.idea/
+.vscode/
+*.swp
+*.swo
+
+### System ###
+.DS_Store
+Thumbs.db
+*.tmp
+=*
+*.bak
+*.cache
+*.orig
+
+### WebApp ###
+/webapp/static/css/*.map
+/webapp/static/js/*.map
+/webapp/static/media/
+
+### Dependency directories ###
+node_modules/
+bower_components/
+
+### Configs ###
+config.py
+*.secret
+*.key
+credentials.json
+
+### Build/Artifacts ###
+dist/
+build/
+*.exe

@@ -1,0 +1,7 @@
+﻿﻿python-telegram-bot==20.3
+fastapi==0.109.0
+uvicorn==0.27.0
+mysql-connector-python==8.1.0
+python-dotenv==1.0.0
+pytonlib==0.0.64  
+pytonconnect==0.3.2  
