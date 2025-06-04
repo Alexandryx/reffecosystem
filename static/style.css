@@ -365,14 +365,7 @@ body {
 
     .logo {
         height: 70px;
-        left: 20px;
-    }
-
-    #main-title {
-        left: 170px;
-        font-size: 1.8em;
-        right: 15px;
-        top: 50%;
+        left: 75px;
     }
 
     .level-buttons {
